@@ -1,0 +1,17 @@
+{
+  "name": "javascript_oop",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/test/*.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-subset": "^1.6.0",
+    "mocha": "^9.2.0"
+  }
+}
