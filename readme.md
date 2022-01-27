@@ -1,7 +1,7 @@
-#install and run test application
+# Steps to install and run test application
 
 clone the repository 
 
 In the cloned directry run command : npm install
 
-To execute test : npm run test
+To execute test : npm run tests
