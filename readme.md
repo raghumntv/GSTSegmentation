@@ -4,4 +4,4 @@ clone the repository
 
 In the cloned directry run command : npm install
 
-To execute test : npm run tests
+To execute test : npm run test
