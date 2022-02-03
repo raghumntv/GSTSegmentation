@@ -1,5 +1,4 @@
 import Products from "./products.js";
-
 const product=new Products();
 
 export default class Shopkeeper {

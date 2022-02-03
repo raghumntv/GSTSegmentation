@@ -1,4 +1,4 @@
- class Products {
+export default class Products {
     gstPercentage = 18;
     
 
@@ -27,6 +27,4 @@
     getTotalPrice() {
         return price + this.gstCharge;
     }
-
 }
-export default Products;
