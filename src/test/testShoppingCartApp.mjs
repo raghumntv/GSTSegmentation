@@ -34,7 +34,6 @@ describe('Shopping cart app',()=>{
                         }                     
                 }
                 expect(getAssertedProduct()).to.be.true
-
         })
 
         it('verify number of products applicable for GST',()=>{
@@ -62,7 +61,5 @@ describe('Shopping cart app',()=>{
         //Assert
                 assert.equal(products.getTotalPrice(television),49560); //ProductWithGST
                 assert.equal(products.getTotalPrice(earphones), 560); //ProductWithoutGST
-        })  
-
-        
+        })       
 })
